@@ -1,0 +1,29 @@
+body{
+  padding:0px;
+  margin:0px;
+}
+#wrapper{
+  height:100vh;
+  overflow:auto;
+  scroll-snap-type-y: y-mandatory;
+}
+.section{
+  scroll-snap-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #de5448;
+  color:#fff;
+  font-size: 3em;
+}
+.bg-blue{
+  background: #4762b7;
+}
+.bg-green{
+  background: #4CAF50;
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
